@@ -1,0 +1,4 @@
+services:
+#    symfony_api.example:
+#        class: SymfonyApiBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

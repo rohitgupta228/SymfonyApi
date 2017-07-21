@@ -1,0 +1,8 @@
+symfony_api:
+    resource: "@SymfonyApiBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
