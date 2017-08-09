@@ -21,7 +21,7 @@ class ApiController extends DefaultController
 
         $response->setResponseData($number);
         $response->setStatus(true);
-        //$response->setMessage($this->get('translator')->trans('success'));
+        $response->setMessage($this->get('translator')->trans('messages.success'));
         $serviceResponse = $response->getServiceResponse();
         return new Response($serviceResponse);
     }
