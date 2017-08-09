@@ -18,7 +18,6 @@ class ApiController extends DefaultController
     {
         $response = $this->responseGenerator;
         $number = mt_rand(0, 100);
-
         $response->setResponseData($number);
         $response->setStatus(true);
         $response->setMessage($this->get('translator')->trans('messages.success'));
