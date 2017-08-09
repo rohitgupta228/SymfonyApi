@@ -1,0 +1,7 @@
+.web-server-pid
+app/.htaccess
+nbproject/private/private.xml
+src/.htaccess
+var/
+vendor/
+web/.htaccess
